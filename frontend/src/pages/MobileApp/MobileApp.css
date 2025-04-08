@@ -1,0 +1,65 @@
+.mobile-app {
+    padding: 40px 8%;
+    background: #f9f9f9;
+}
+
+.mobile-app-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.mobile-app-text {
+    flex: 1;
+}
+
+.mobile-app-text h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.mobile-app-text p {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.app-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.app-button img {
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.app-button img:hover {
+    transform: scale(1.05);
+}
+
+.mobile-app-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-app-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .mobile-app-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .app-buttons {
+        justify-content: center;
+    }
+} 
