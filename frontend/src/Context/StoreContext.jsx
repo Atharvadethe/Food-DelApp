@@ -1,3 +1,4 @@
+//display food items
 import { createContext, useEffect, useState } from "react";
 import { food_list as staticFoodList, menu_list } from "../assets/assets";
 import axios from "axios";
